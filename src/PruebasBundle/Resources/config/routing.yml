@@ -1,0 +1,7 @@
+pruebas_homepage:
+    path:     /
+    defaults: { _controller: PruebasBundle:Default:index }
+
+pruebas_nombre:
+    path:     /nombre
+    defaults: { _controller: PruebasBundle:Default:nombre }
