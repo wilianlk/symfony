@@ -1,0 +1,8 @@
+GET http://127.0.0.1:8000/prueba/nombre/8
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-10T083219.200.html
+
+###
+

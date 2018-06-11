@@ -1,0 +1,23 @@
+PruebasBundle\Entity\Event:
+    type: entity
+    table: null
+    repositoryClass: PruebasBundle\Repository\EventRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nameEvent:
+            type: string
+            length: '256'
+        date:
+            type: datetime
+        city:
+            type: string
+            length: 255
+        popoulation:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

@@ -12,8 +12,8 @@ class DefaultController extends Controller
         return $this->render('PruebasBundle:Default:index.html.twig');
     }
 
-    public function nombreAction()
+    public function nombreAction($id ="sin nota")
     {
-        return $this->render('@Pruebas/Default/nombre..html.twig');
+        return $this->render('PruebasBundle:Default:nombre.html.twig',array('id'=> $id));
     }
 }

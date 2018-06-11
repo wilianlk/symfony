@@ -3,5 +3,5 @@ pruebas_homepage:
     defaults: { _controller: PruebasBundle:Default:index }
 
 pruebas_nombre:
-    path:     /nombre
+    path:     /nombre/{id}
     defaults: { _controller: PruebasBundle:Default:nombre }
