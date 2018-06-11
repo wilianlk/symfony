@@ -30,9 +30,7 @@ class Event
     /**
      * @var string
      */
-
     private $population;
-
 
     /**
      * Get id
@@ -117,32 +115,26 @@ class Event
     }
 
     /**
-     * @var string
-     */
-    private $popoulation;
-
-
-    /**
-     * Set popoulation
+     * Set population
      *
-     * @param string $popoulation
+     * @param string $population
      *
      * @return Event
      */
-    public function setPopoulation($popoulation)
+    public function setPopulation($population)
     {
-        $this->popoulation = $popoulation;
+        $this->population = $population;
 
         return $this;
     }
 
     /**
-     * Get popoulation
+     * Get population
      *
      * @return string
      */
-    public function getPopoulation()
+    public function getPopulation()
     {
-        return $this->popoulation;
+        return $this->population;
     }
 }

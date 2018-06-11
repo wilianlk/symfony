@@ -1,23 +1,36 @@
 PruebasBundle\Entity\Event:
     type: entity
-    table: null
-    repositoryClass: PruebasBundle\Repository\EventRepository
+    table: event
     id:
         id:
             type: integer
+            nullable: false
+            options:
+                unsigned: false
             id: true
             generator:
-                strategy: AUTO
+                strategy: IDENTITY
     fields:
         nameEvent:
             type: string
-            length: '256'
+            nullable: false
+            length: 256
+            options:
+                fixed: false
+            column: name_event
         date:
             type: datetime
+            nullable: false
         city:
             type: string
+            nullable: false
             length: 255
-        popoulation:
+            options:
+                fixed: false
+        population:
             type: string
+            nullable: false
             length: 255
+            options:
+                fixed: false
     lifecycleCallbacks: {  }
